@@ -14,3 +14,20 @@ project use to make practice in react navive with demo componets
 - [react-native-config](https://github.com/luggit/react-native-config) to manage envionments.
 - [react-navigation](https://reactnavigation.org/) navigation library.
 - [react-native-localization](https://github.com/stefalda/ReactNativeLocalization) for string localization.
+
+## Project structure 
+- public directory 
+    - all the font and assets is store in this directory.   
+- src directory 
+    - src 
+        - assets
+            - having all Images and fonts in this directory
+        - component
+            - CommonComponets 
+                - All the common controlls like input button dropdowns are store in this component
+            - ScreenComponents
+                - screen regarding specific componet is store in this directory
+        - screen 
+            - specific screens are store in this directory like home profile details etc.   
+        - navigation 
+            - All the navigation logic having in this directory. how to navigate one screen to anothe screen
